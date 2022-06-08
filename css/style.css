@@ -1,13 +1,12 @@
 .col-1 , .col-2 , .col-3 , .col-4 , .col-5 , .col-6 , .col-7 , .col-8 , .col-9 , .col-10 , .col-11 , .col-12{
     background-color:blue;
-    border:1px solid white;
+     border:1px solid white;
     min-height:100px;
 }
 .nested{
-    color:green;
+    height:100%;
+    width:100%;
     background-color: green;
-    width:80%;
-    height:60px;
 }
 .offset-1 , .offset-2 , .offset-3 , .offset-4 , .offset-5 , .offset-6 , .offset-7 , .offset-8 , .offset-9 , .offset-10 , .offset-11{
     min-height:100px;
@@ -20,11 +19,21 @@
 }
 .box{
     margin-top:20px;
-    width:120px;
+    width:200px;
     height:50px;
     background-color: lightgreen;
 }
 .between{
     margin-left:10px;
     margin-right:10px;
+}
+/* utilities */
+.pad-10{
+    padding:10px;
+}
+.pad-5{
+    padding:10px;
+}
+.no-border{
+    border:none;
 }
