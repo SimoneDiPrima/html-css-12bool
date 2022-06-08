@@ -12,3 +12,19 @@
 .offset-1 , .offset-2 , .offset-3 , .offset-4 , .offset-5 , .offset-6 , .offset-7 , .offset-8 , .offset-9 , .offset-10 , .offset-11{
     min-height:100px;
 }
+.special-height{
+    min-height:200px;
+}
+.title{
+    padding:10px 0;
+}
+.box{
+    margin-top:20px;
+    width:120px;
+    height:50px;
+    background-color: lightgreen;
+}
+.between{
+    margin-left:10px;
+    margin-right:10px;
+}
