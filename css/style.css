@@ -17,6 +17,10 @@
 .title{
     padding:10px 0;
 }
+.name-inside{
+    line-height: 100px;
+}
+
 .box{
     margin-top:20px;
     width:200px;
@@ -37,3 +41,4 @@
 .no-border{
     border:none;
 }
+
